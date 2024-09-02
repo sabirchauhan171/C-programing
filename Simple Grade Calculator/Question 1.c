@@ -9,27 +9,27 @@ int main()
 
     if (value<26)
     {
-        printf("Your grade is : F.");
+        printf("Your grade is : F.Please try again next time");
     } 
     else if (value<45)
     {
-        printf("Your grade is : E.");
+        printf("Your grade is : E.Congratulations! You are eligible for the next level");
     } 
     else if (value<50)
     {
-        printf("Your grade is : D.");
+        printf("Your grade is : D.Congratulations! You are eligible for the next level");
     }
      else if (value<60)
     {
-        printf("Your grade is  C.");
+        printf("Your grade is  C.Congratulations! You are eligible for the next level");
     }
      else if (value<80)
     {
-        printf("Your grade is : B.");
+        printf("Your grade is : B.Congratulations! You are eligible for the next level");
     } 
     else if (value=80||value>80)
     {
-        printf("Your grade is : A.");
+        printf("Your grade is : A.Congratulations! You are eligible for the next level");
     }
        
 }
