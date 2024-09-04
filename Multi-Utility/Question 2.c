@@ -7,18 +7,19 @@ int main()
     printf("enter base salary :");
     scanf("%f",&basesalary);
 
-    HRA=basesalary*10/100;
-
+    
     printf("enter HRA in persentage : \n");
     scanf("%f",&HRA);
-    DA=basesalary*5/100;
+    HRA=basesalary * HRA /100;
+    
 
     printf("enter DA in persentage : \n");
     scanf("%f",&DA);
-    TA=basesalary*8/100;
-
+    DA=basesalary * DA /100;
+    
     printf("enter TA in persentage : \n");
     scanf("%f",&TA);
+    TA=basesalary * TA /100;
     
  
     gross_salary = basesalary + HRA + DA + TA;
