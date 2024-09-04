@@ -10,15 +10,18 @@ int main()
     
     printf("enter HRA in persentage : \n");
     scanf("%f",&HRA);
-    HRA=basesalary * HRA /100;
+    
     
 
     printf("enter DA in persentage : \n");
     scanf("%f",&DA);
-    DA=basesalary * DA /100;
+   
     
     printf("enter TA in persentage : \n");
     scanf("%f",&TA);
+
+    HRA=basesalary * HRA /100;
+    DA=basesalary * DA /100;
     TA=basesalary * TA /100;
     
  
